@@ -36,18 +36,25 @@ spec:
       description: Workspace to save the CR jsons to
   results:
     - name: release
+      type: string
       description: The relative path in the workspace to the stored release json
     - name: releasePlan
+      type: string
       description: The relative path in the workspace to the stored releasePlan json
     - name: releasePlanAdmission
+      type: string
       description: The relative path in the workspace to the stored releasePlanAdmission json
     - name: releaseStrategy
+      type: string
       description: The relative path in the workspace to the stored releaseStrategy json
     - name: snapshotSpec
+      type: string
       description: The relative path in the workspace to the stored snapshotSpec json
     - name: fbcFragment
+      type: string
       description: The first component's containerImage in the snapshot to use in the fbc pipelines
     - name: extraData
+      type: string
       description: The relative path in the workspace to the stored extraData json
   steps:
     - name: collect-data

@@ -41,8 +41,8 @@ spec:
     resolver: "git"
     params:
       - name: url
-        value: https://github.com/redhat-appstudio/release-service-bundles.git
+        value: https://github.com/Troy876/release-service-bundles.git
       - name: revision
-        value: main
+        value: HACBS-2526
       - name: pathInRepo
         value: catalog/pipeline/rhtap-service-push/0.4/rhtap-service-push.yaml
